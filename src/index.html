@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Github Users</title>
+  </head>
+
+  <body style="text-align: center;">
+    <h1>Github Profile</h1>
+
+    <form id="form" class="ui form">
+      <div class="field">
+        <div class="ui label">
+          <label for="name">Type a Github Username</label>
+        </div>
+        <div class="ui input">
+          <input type="text" name="search" />
+        </div>
+      </div>
+      <input class="ui primary basic button" type="submit" />
+    </form>
+
+    <div id="root"></div>
+  </body>
+</html>
